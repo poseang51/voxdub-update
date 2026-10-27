@@ -1,9 +1,9 @@
 {
- "version": "2.6.3",
- "notes": "- Help › ✅ System check: is this PC ready to dub (FFmpeg, NVIDIA GPU, Whisper, disk space, Gemini key, OCR, Isolate BGM, VoxCPM) – shown by itself when something must be fixed.\n- Help › 📨 Send problem report: one zip on the Desktop (logs, version, this PC – no API key, password or licence) to send to the admin on Telegram.\n- Help › 🎓 Video tutorials (also in Help › About).\n- Updates now come over the internet: Help › Check for updates finds every new version by itself.",
- "patch_url": "VoxDub_update_2.6.3.zip",
- "patch_sha256": "614efc91f1eece89ad850f36b9bd9fe30f3568230d80b84dd09fef1fb7844446",
- "patch_sig": "CvNTQPVB_B-naTetfWUGCr45zOm_pZlEEbZrcvws2VliQk9LRmDbJdC31muJyJstkplQ2mjcgL5Yi7izobGMCQ",
+ "version": "2.6.4",
+ "notes": "- Dub tab: ⚡ AUTO DUB, the 3 steps and the progress stay at the bottom of the left panel – only the settings above scroll.\n- The right panel (Style, Characters …) and the Tools (Color, Audio, Crop) are no longer cut off on the right – long names end with … and open in full.",
+ "patch_url": "VoxDub_update_2.6.4.zip",
+ "patch_sha256": "a314dbeccd984431616b74422b331cb60ad97a2f0962bb6a2a8f06774752aa24",
+ "patch_sig": "JaGHTQED4h5m878KR6jLgoTY69d6u5kPlB501z_Ypm0ownMvu7tvrBd1ttr7nt8B1A8gOnCKhbGcKj9pAV6bBQ",
  "patch_base": "2.3.1",
  "needs": []
 }
