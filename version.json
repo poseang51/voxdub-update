@@ -1,9 +1,9 @@
 {
- "version": "2.6.2",
- "notes": "- The app no longer closes by itself while playing a video on NVIDIA cards (the video is decoded with Direct3D 11, smooth and safe).\n- If the app ever closes by itself, the reason is written to logs\\crash_trace.log for the admin.\n- 🔍 Lines to check (📝 Transcript): the lines worth a look – no subtitle on the video shows them, or Whisper is not sure – one click each, ✓ OK when right.\n- Batch / Auto Dub: Gemini listens to the unsure lines and confirms them; grunts heard as words get no voice. ✅ Quality check lists what is left – double-click opens the episode.\n- A subtitle read twice by the OCR is voiced once (no more \"1,400 km 1,400 km\"), and pieces repeating the line next to them are dropped.\n- Voice style is now \"Original VoxDub\" by default: the video is never slowed (it looked like slow motion); when it is chosen, at most to 0.75 ×.\n- New speech engines to try: Paraformer-zh and SenseVoice-Small (fast, with the VoxCPM engine) – Whisper stays the best for dubbing.\n- Batch: two episodes reading the subtitles on the GPU at once no longer close the app.",
- "patch_url": "VoxDub_update_2.6.2.zip",
- "patch_sha256": "debf527c6f78c2e44af5aa14dd7bb053931365416933d7e5ad69b2ae8c1f870d",
- "patch_sig": "8VqgywextRu6vUFdFwrwLKWLSy1tNyrMSNIpkXadEn8SryUTCu44Rq4mMehG5UEBs9J5HqsvyMv5k8fdFpJQBw",
+ "version": "2.6.3",
+ "notes": "- Help › ✅ System check: is this PC ready to dub (FFmpeg, NVIDIA GPU, Whisper, disk space, Gemini key, OCR, Isolate BGM, VoxCPM) – shown by itself when something must be fixed.\n- Help › 📨 Send problem report: one zip on the Desktop (logs, version, this PC – no API key, password or licence) to send to the admin on Telegram.\n- Help › 🎓 Video tutorials (also in Help › About).\n- Updates now come over the internet: Help › Check for updates finds every new version by itself.",
+ "patch_url": "VoxDub_update_2.6.3.zip",
+ "patch_sha256": "614efc91f1eece89ad850f36b9bd9fe30f3568230d80b84dd09fef1fb7844446",
+ "patch_sig": "CvNTQPVB_B-naTetfWUGCr45zOm_pZlEEbZrcvws2VliQk9LRmDbJdC31muJyJstkplQ2mjcgL5Yi7izobGMCQ",
  "patch_base": "2.3.1",
  "needs": []
 }
