@@ -1,9 +1,9 @@
 {
- "version": "2.6.4",
- "notes": "- Dub tab: ⚡ AUTO DUB, the 3 steps and the progress stay at the bottom of the left panel – only the settings above scroll.\n- The right panel (Style, Characters …) and the Tools (Color, Audio, Crop) are no longer cut off on the right – long names end with … and open in full.",
- "patch_url": "VoxDub_update_2.6.4.zip",
- "patch_sha256": "a314dbeccd984431616b74422b331cb60ad97a2f0962bb6a2a8f06774752aa24",
- "patch_sig": "JaGHTQED4h5m878KR6jLgoTY69d6u5kPlB501z_Ypm0ownMvu7tvrBd1ttr7nt8B1A8gOnCKhbGcKj9pAV6bBQ",
+ "version": "2.6.5",
+ "notes": "- Home: a cleaner sidebar – line icons, a bar on the page you are on, a smaller licence card.\n- Media bin: thumbnails keep the video's shape (9:16 is no longer cut to a strip), names on one line.\n- Edit › 🔇 Detach audio (Ctrl+Alt+D, like Filmora): the video's sound becomes clips on the Music track to move, cut or delete – the same again attaches it back.\n- Video 2 track (picture in picture): put a second video over the video, move, trim and split it, drag and resize it on the preview – exported with its own sound.\n- Main video track: drag a piece left or right to put it before or after the others.\n- Audio › Noise Removal › AI: clear speech in street, room or crowd noise (a voice AI model, offline).\n- AI check: a line the speech engine misheard, that no subtitle on the video shows, now takes the words the AI heard (年级 → 找死).\n- Batch \"At once 2\": two episodes separating the music on the GPU at the same moment no longer close the app.",
+ "patch_url": "VoxDub_update_2.6.5.zip",
+ "patch_sha256": "92f62f47780e711832bc19d6f940e7a0e571a8f0d9baba1fcd7d36f92047de88",
+ "patch_sig": "eicy03VUCOu3GuNR3cZiEUiWa7IKrPiyUQ7SYGASz4sxgOe0qee1CH4nAsC1if1atA9I9cWE8wAGG4tn2XWcDw",
  "patch_base": "2.3.1",
  "needs": []
 }
