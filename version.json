@@ -1,9 +1,9 @@
 {
- "version": "2.6.8",
- "notes": "- Batch: one line per episode in the log with the time of every step (separate · STT · OCR · characters · AI check · translate · voice · export).\n- Burned-in subtitles are read faster, and the place of the subtitles is found once per story instead of for every episode (about 30 s less per episode).\n- Lines a speech engine invents on music (\"please like and subscribe\", channel names, in simplified or traditional Chinese) are no longer voiced.\n- Paraformer-zh stays loaded between episodes on graphics cards with 7 GB or more (a 4 GB card keeps its memory free).\n- Batch: a video that was moved or deleted after it was added says so, instead of \"FFmpeg failed – the video may be damaged\".",
- "patch_url": "VoxDub_update_2.6.8.zip",
- "patch_sha256": "f670ba1ba2304f41f9ea358d1df2bd6c8915e644b4d7e0bda8dce73530c90e71",
- "patch_sig": "OhFpb6-ONzejZSCBTpLpTODVtHcCvELHdvkCurOYDZoIzDte2IPZN7tDXuxuOZELr1dwpwX5vmQs0_R9mwoJDg",
+ "version": "2.6.9",
+ "notes": "- Batch: click the red Failed card – the failed videos are selected and shown, and can start again with one click.\n- Batch: right-click a video › ▶ Start these now – runs only the chosen episodes, or puts them next if the queue is already running.",
+ "patch_url": "VoxDub_update_2.6.9.zip",
+ "patch_sha256": "adafb5e40406586f04dcd539484b48f3f8b3527e93310830f199abc598634f8c",
+ "patch_sig": "cylIdlLlwGO9Ufe5TSn9SA96wScVX462kmEU357_s0A7dZq2e3fDT3iWU5gfhbiNiPm90DnBemji_V4YvWm8AQ",
  "patch_base": "2.3.1",
  "needs": []
 }
