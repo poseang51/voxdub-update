@@ -1,9 +1,9 @@
 {
- "version": "2.6.9",
- "notes": "- Batch: click the red Failed card – the failed videos are selected and shown, and can start again with one click.\n- Batch: right-click a video › ▶ Start these now – runs only the chosen episodes, or puts them next if the queue is already running.",
- "patch_url": "VoxDub_update_2.6.9.zip",
- "patch_sha256": "adafb5e40406586f04dcd539484b48f3f8b3527e93310830f199abc598634f8c",
- "patch_sig": "cylIdlLlwGO9Ufe5TSn9SA96wScVX462kmEU357_s0A7dZq2e3fDT3iWU5gfhbiNiPm90DnBemji_V4YvWm8AQ",
+ "version": "2.6.10",
+ "notes": "- Batch: before the start, videos that were moved or deleted, a disk that is almost full and a refused Gemini key are told at once – not half way through the queue.\n- Batch: when the graphics card runs out of memory or its driver restarts, the video is tried again by itself and the rest of the queue runs one video at a time.\n- Graphics cards under 7 GB: Paraformer-zh reads smaller pieces, and the next video waits while the card is almost full (less chance of a black screen).\n- Batch report: \"Time spent\" is the time of this run (it added up every run before).\n- Batch: right-click › ▶ Start these now works again (it showed \"'bool' object is not iterable\").",
+ "patch_url": "VoxDub_update_2.6.10.zip",
+ "patch_sha256": "8537704262cb72da1fb48b119040268e76b090a6f6f7cff27b9699fa036f3a02",
+ "patch_sig": "QxC3mLaZ7vojvLhKDUSGxDgLLY8yAqBb3jD-uT1MK9u0bF8kbdJICLs2P7MpoMgas2k53O2FDiiAF282gbiQCw",
  "patch_base": "2.3.1",
  "needs": []
 }
