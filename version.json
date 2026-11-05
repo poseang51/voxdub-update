@@ -1,9 +1,9 @@
 {
- "version": "2.6.10",
- "notes": "- Batch: before the start, videos that were moved or deleted, a disk that is almost full and a refused Gemini key are told at once – not half way through the queue.\n- Batch: when the graphics card runs out of memory or its driver restarts, the video is tried again by itself and the rest of the queue runs one video at a time.\n- Graphics cards under 7 GB: Paraformer-zh reads smaller pieces, and the next video waits while the card is almost full (less chance of a black screen).\n- Batch report: \"Time spent\" is the time of this run (it added up every run before).\n- Batch: right-click › ▶ Start these now works again (it showed \"'bool' object is not iterable\").",
- "patch_url": "VoxDub_update_2.6.10.zip",
- "patch_sha256": "8537704262cb72da1fb48b119040268e76b090a6f6f7cff27b9699fa036f3a02",
- "patch_sig": "QxC3mLaZ7vojvLhKDUSGxDgLLY8yAqBb3jD-uT1MK9u0bF8kbdJICLs2P7MpoMgas2k53O2FDiiAF282gbiQCw",
+ "version": "2.6.11",
+ "notes": "- The \"Edit video\" workspace is hidden – SARIKA VOXDUB PRO is for dubbing. The dub editor (timeline, check & fix) and the quick tools (Merge, Split, Black bars, Reframe) stay.",
+ "patch_url": "VoxDub_update_2.6.11.zip",
+ "patch_sha256": "c7c1e90249a47d65a8924f016cdb4e634c9e682956feff13c4c4aeb07243bca4",
+ "patch_sig": "exBSGWXM7TYaZPbSAfIl9xoTwxEFNZV6Fj1d3OciZFPX1jSmHC8KjnB5ezwMH2KeOh_NaT43tFod7E1gpztABQ",
  "patch_base": "2.3.1",
  "needs": []
 }
