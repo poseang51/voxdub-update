@@ -1,9 +1,9 @@
 {
- "version": "2.6.11",
- "notes": "- The \"Edit video\" workspace is hidden – SARIKA VOXDUB PRO is for dubbing. The dub editor (timeline, check & fix) and the quick tools (Merge, Split, Black bars, Reframe) stay.",
- "patch_url": "VoxDub_update_2.6.11.zip",
- "patch_sha256": "c7c1e90249a47d65a8924f016cdb4e634c9e682956feff13c4c4aeb07243bca4",
- "patch_sig": "exBSGWXM7TYaZPbSAfIl9xoTwxEFNZV6Fj1d3OciZFPX1jSmHC8KjnB5ezwMH2KeOh_NaT43tFod7E1gpztABQ",
+ "version": "2.6.12",
+ "notes": "- Updates: closing the app no longer makes an update look \"did not start\" – an update that works is not thrown away any more (\"Update now is not possible\").\n- Voice: lines Edge TTS did not answer (\"No audio was received\") are tried once more, one at a time – no need to run the Voice step again.",
+ "patch_url": "VoxDub_update_2.6.12.zip",
+ "patch_sha256": "49d73609e177f9bcfcf95979a742bdfb0501d4b05a6326254fdce79f5f6349b9",
+ "patch_sig": "9E3tsbSifbckiTb00LTr3L4b8JqORTFbLo9RvB3dGaQM7rLVe5EvncPxVRlrDbM_g1hR9URIOuomUFCJsAoeCQ",
  "patch_base": "2.3.1",
  "needs": []
 }
