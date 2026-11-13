@@ -1,9 +1,9 @@
 {
- "version": "2.7.0",
- "notes": "- Translate: new \"Gemini Router\" – every key and every fast Gemini model the keys have, in turn; a key or model that is used up hands over by itself. The live window (🔑 in Batch) shows each key at work.\n- Gemini keys: a refused key is taken out (also after a restart), a key that used today's quota waits for Google's daily reset, and when every key is used up Google Translate (free) finishes the lines – or the work stops and tells you (Settings › Gemini).\n- \"Get a free key\": the steps to a free Google AI Studio key – a key copied there is tested and saved by itself, no pasting.\n- AI check after every Transcribe: lines to check that are right lose their mark, small mistakes are fixed, noise is taken out – \"Use the AI's words\" and \"All right\" do the rest in one click, and the result is shown.\n- Characters: Rank (king, royal family, official, servant, monk …) – Gemini uses the right Khmer words of address (រាជសព្ទ, ទូលបង្គំ, ខ្ញុំម្ចាស់, អាត្មា). Auto: the AI tells it, and the next episodes keep it.\n- Glossary › Read aloud: how the voice says a word (VIP → វីអាយភី) – the subtitle keeps it as written.\n- Batch: a Telegram message on your phone for each finished or failed episode and at the end of the queue (your own bot).\n- Khmer translation: Thai, Chinese or English words left in a line (\"seat\", \"เมื่อ\") are asked again – the voice no longer reads foreign words.\n- Batch with Fun-ASR-Nano on a small graphics card runs one video at a time (two waited for each other), and the story glossary no longer learns names in Latin letters.",
- "patch_url": "VoxDub_update_2.7.0.zip",
- "patch_sha256": "fb4dd90b0935578d2bf04d1a42ce0e9894c6f8d68dfaf25d3cfb34ac6f86f279",
- "patch_sig": "70z9m5PosAchftG9y53zVPqA8xYfJnKlC6dyfmUZeT0VQsyFjFFORTvLPcQqPLo9FdqTeDEzjFy8A7iw6VXFDA",
+ "version": "2.7.1",
+ "notes": "- Characters: Gemini listens to the episode and reads the story to tell who says each line – one person with an angry and a calm voice is no longer split into several characters, and each character gets a role (\"flight attendant\").\n- Translation learns from your corrections: a line you change by hand is kept, and the next Gemini translations make the same choices of words and forms of address.\n- Story list: Gemini is asked for every person's name (full name, surname + title) so the names stay the same in every episode.",
+ "patch_url": "VoxDub_update_2.7.1.zip",
+ "patch_sha256": "f4fbd6c649aa8b4135ac31cb35e17ff2dc2c4048cc6c5a308eabe21b4409bf4f",
+ "patch_sig": "rR5i7Na7K99LPXk_4KPcvKBR0hBTeVFgf3W6ine2nWZNps7O5LlieGNyQrTEsaqsaG3Z9o0--nz0EAylxbnFBg",
  "patch_base": "2.3.1",
  "needs": []
 }
