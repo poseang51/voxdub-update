@@ -1,9 +1,9 @@
 {
- "version": "2.7.4",
- "notes": "- Voice: when Edge refuses lines (\"No audio was received\"), fewer lines are asked at once, and more again after a quiet minute; the log shows how often Edge refused.",
- "patch_url": "VoxDub_update_2.7.4.zip",
- "patch_sha256": "a083d1f40e96af5ff8aaa710339a6eb0e0dbd42e662260818174d0c5efe7c5b7",
- "patch_sig": "_7Zz8FVmQNP66f71ZNsOWEz77epsaCmATNJMSuWFBMd-uHg7qdocZxlCXm20iQ3q1pTp2k2vQZbGGLglTcTDBg",
+ "version": "2.7.5",
+ "notes": "- Gemini web add-on: buy it from its own page – 📋 Copy request, send it to the seller, paste the code you get and Activate. Your licence key stays as it is.\n- SenseVoice: a short line heard in another language (e.g. a Chinese \"醒了\" heard as Japanese) is read again in the film's language instead of being lost.",
+ "patch_url": "VoxDub_update_2.7.5.zip",
+ "patch_sha256": "f59d551a008c0823ca0442ca2908c638ffa1872bf80864b4c308f933cf0eac40",
+ "patch_sig": "2Hg4XmgLi9SOHSrlu6PUzgfvZWS_5gFIFNtoShpSZEQRq_V6UL4kSH67AV386PqDp8a4OKWK5ohmMMYelnxQBQ",
  "patch_base": "2.3.1",
  "needs": []
 }
