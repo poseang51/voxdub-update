@@ -1,9 +1,9 @@
 {
- "version": "2.7.5",
- "notes": "- Gemini web add-on: buy it from its own page – 📋 Copy request, send it to the seller, paste the code you get and Activate. Your licence key stays as it is.\n- SenseVoice: a short line heard in another language (e.g. a Chinese \"醒了\" heard as Japanese) is read again in the film's language instead of being lost.",
- "patch_url": "VoxDub_update_2.7.5.zip",
- "patch_sha256": "f59d551a008c0823ca0442ca2908c638ffa1872bf80864b4c308f933cf0eac40",
- "patch_sig": "2Hg4XmgLi9SOHSrlu6PUzgfvZWS_5gFIFNtoShpSZEQRq_V6UL4kSH67AV386PqDp8a4OKWK5ohmMMYelnxQBQ",
+ "version": "2.7.7",
+ "notes": "- AI check: a word or two with no subtitle on the video that the AI hears as no speech twice (a song under the talk heard as \"还是爱\") is taken out – kept in the noise lines.\n- SenseVoice: a line read again in the film's language is marked unsure – a song under the talk heard as short lines (\"还是爱\", \"你的歌\") is taken out when no subtitle on the video shows it.\n- Voice faster: a voice at most 12 % too long for its time is sped up in the app (hardly heard) instead of being asked from Edge again, and a line said clearly shorter no longer gets a second, faster voice just in case – fewer Edge requests, fewer refusals.",
+ "patch_url": "VoxDub_update_2.7.7.zip",
+ "patch_sha256": "b4afe1985235a20ccad26659394e43699e839fe72f37f6ce1bfd89e9e87d382f",
+ "patch_sig": "xxKhz0k9djX9BXLzDwBpY5iTpXoAbP2Hs0-mf7HqX4bxbDnCfF5EYW_OOreQPE1nSFSkUcSUSvGo1GGTF2gsBQ",
  "patch_base": "2.3.1",
  "needs": []
 }
