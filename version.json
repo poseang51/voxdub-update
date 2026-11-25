@@ -1,9 +1,9 @@
 {
- "version": "2.7.7",
- "notes": "- AI check: a word or two with no subtitle on the video that the AI hears as no speech twice (a song under the talk heard as \"还是爱\") is taken out – kept in the noise lines.\n- SenseVoice: a line read again in the film's language is marked unsure – a song under the talk heard as short lines (\"还是爱\", \"你的歌\") is taken out when no subtitle on the video shows it.\n- Voice faster: a voice at most 12 % too long for its time is sped up in the app (hardly heard) instead of being asked from Edge again, and a line said clearly shorter no longer gets a second, faster voice just in case – fewer Edge requests, fewer refusals.",
- "patch_url": "VoxDub_update_2.7.7.zip",
- "patch_sha256": "b4afe1985235a20ccad26659394e43699e839fe72f37f6ce1bfd89e9e87d382f",
- "patch_sig": "xxKhz0k9djX9BXLzDwBpY5iTpXoAbP2Hs0-mf7HqX4bxbDnCfF5EYW_OOreQPE1nSFSkUcSUSvGo1GGTF2gsBQ",
+ "version": "2.7.8",
+ "notes": "- Subtitles read from the video: a narration caption that stays on the screen above several dialogue subtitles is kept once (it was in every line, voiced over and over).\n- Subtitles read from the video: one sentence the film shows as two subtitles one right after the other (\"林总有事\" | \"脱不开身\") is one line, the same caption read twice is one line, and a narration caption keeps its own time (its words were cut short).",
+ "patch_url": "VoxDub_update_2.7.8.zip",
+ "patch_sha256": "c0d38ba564c22802242bc5b64434411e62c5c82a08a9fec989479aca757445b7",
+ "patch_sig": "7I-1vbzV17XF9zP20Y_VKhTnQ_DILx4ZZ_P6Rn5FCuq_ZBaBPiwrXa3uw0aovdBDf3Vo1LCDYnTvxJDI9a50Aw",
  "patch_base": "2.3.1",
  "needs": []
 }
