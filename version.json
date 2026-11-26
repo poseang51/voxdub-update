@@ -1,9 +1,9 @@
 {
- "version": "2.7.9",
- "notes": "- Hongguo / Douyin videos in ByteDance \"bvc2\" (H.266) – no player could show the picture – are made H.264 once when opened (about a minute an episode), in a single video and in a Batch.\n- AI check: in a word or two one letter is the meaning (\"不可能\" became \"不过能\") – the AI's spelling goes in only when it hears the same words again.\n- A name heard wrongly in a short scrap right before its subtitle (\"志位\" before \"知薇\") is no longer voiced twice.\n- AI check: when the AI hears fewer words than the line (\"不可能\" heard as \"不过\"), its words are offered in the Quality check, not put in by themselves.",
- "patch_url": "VoxDub_update_2.7.9.zip",
- "patch_sha256": "111810b252ba39fcabf21f1255429d5677c269f80696a3b113afafe024527399",
- "patch_sig": "BmXQjxhUln7OrCAwL0SY-uB_TdWNk26G52a5n1tU_sb5KmD71sSga0ZB9s9mYkd-GKlBg7aPOKPdmO18NscJAg",
+ "version": "2.7.10",
+ "notes": "- Translation: a line that got the next line's words (\"婉宁，你老公呢\" came out \"ស្អប់គាត់…\", the next line's \"恨他\") is asked again.\n- Names: speech recognition and the subtitle reader write one person's name in alike ways (林熙川 / 林七川 / 弄川) – now they all get the same Khmer name (\"លីន ហ៊ីឈួន / ឡុងឈួន / លីន លីនឈួន\" were one man).",
+ "patch_url": "VoxDub_update_2.7.10.zip",
+ "patch_sha256": "64e7a7e88c61fba1aca9e8a9fbc1f4e5fdeabf0cac6b815d89c30eee6369d667",
+ "patch_sig": "FSU2gWXSNpZEjsdHz1jCpjHqQDreMPlcEaEAI8GM3W_ZJbOyMyXMHL1onw_ZZAGTygNNo6Wu4omE5R-MDQv1BA",
  "patch_base": "2.3.1",
  "needs": []
 }
