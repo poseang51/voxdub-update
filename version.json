@@ -1,9 +1,9 @@
 {
- "version": "2.7.8",
- "notes": "- Subtitles read from the video: a narration caption that stays on the screen above several dialogue subtitles is kept once (it was in every line, voiced over and over).\n- Subtitles read from the video: one sentence the film shows as two subtitles one right after the other (\"林总有事\" | \"脱不开身\") is one line, the same caption read twice is one line, and a narration caption keeps its own time (its words were cut short).",
- "patch_url": "VoxDub_update_2.7.8.zip",
- "patch_sha256": "c0d38ba564c22802242bc5b64434411e62c5c82a08a9fec989479aca757445b7",
- "patch_sig": "7I-1vbzV17XF9zP20Y_VKhTnQ_DILx4ZZ_P6Rn5FCuq_ZBaBPiwrXa3uw0aovdBDf3Vo1LCDYnTvxJDI9a50Aw",
+ "version": "2.7.9",
+ "notes": "- Hongguo / Douyin videos in ByteDance \"bvc2\" (H.266) – no player could show the picture – are made H.264 once when opened (about a minute an episode), in a single video and in a Batch.\n- AI check: in a word or two one letter is the meaning (\"不可能\" became \"不过能\") – the AI's spelling goes in only when it hears the same words again.\n- A name heard wrongly in a short scrap right before its subtitle (\"志位\" before \"知薇\") is no longer voiced twice.\n- AI check: when the AI hears fewer words than the line (\"不可能\" heard as \"不过\"), its words are offered in the Quality check, not put in by themselves.",
+ "patch_url": "VoxDub_update_2.7.9.zip",
+ "patch_sha256": "111810b252ba39fcabf21f1255429d5677c269f80696a3b113afafe024527399",
+ "patch_sig": "BmXQjxhUln7OrCAwL0SY-uB_TdWNk26G52a5n1tU_sb5KmD71sSga0ZB9s9mYkd-GKlBg7aPOKPdmO18NscJAg",
  "patch_base": "2.3.1",
  "needs": []
 }
