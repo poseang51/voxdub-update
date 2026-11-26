@@ -1,9 +1,9 @@
 {
- "version": "2.7.10",
- "notes": "- Translation: a line that got the next line's words (\"婉宁，你老公呢\" came out \"ស្អប់គាត់…\", the next line's \"恨他\") is asked again.\n- Names: speech recognition and the subtitle reader write one person's name in alike ways (林熙川 / 林七川 / 弄川) – now they all get the same Khmer name (\"លីន ហ៊ីឈួន / ឡុងឈួន / លីន លីនឈួន\" were one man).",
- "patch_url": "VoxDub_update_2.7.10.zip",
- "patch_sha256": "64e7a7e88c61fba1aca9e8a9fbc1f4e5fdeabf0cac6b815d89c30eee6369d667",
- "patch_sig": "FSU2gWXSNpZEjsdHz1jCpjHqQDreMPlcEaEAI8GM3W_ZJbOyMyXMHL1onw_ZZAGTygNNo6Wu4omE5R-MDQv1BA",
+ "version": "2.7.11",
+ "notes": "- Old palace dramas: 孙公公 is said ខុនទីស៊ុន (not \"គុងគុងស៊ុន\"), 太监 ខុនទី, and 锦衣卫 / 东厂 by meaning (កងរក្សាព្រះអង្គ), not as a name.\n- A short piece that only says the end of the line before again (\"不好好\" after \"…对谁都不好\") is no longer voiced twice.\n- Names: a line that says a listed name another way (\"子航\" as \"ជឺហាង\", the list says \"ហ្ស៊ីហាំង\") is pointed out to the proofreader, who puts the list's name in.",
+ "patch_url": "VoxDub_update_2.7.11.zip",
+ "patch_sha256": "f33a6cb18f729b30c0ee0ebaf5e208bc62cd591d85d28b4a600103b3503ec208",
+ "patch_sig": "OoHyGGaY0EI2vIgk9MTlOgQAZMW05zBEpI9VjQpBPBCduqV7jXzxptAyJ4a308O-G1_KLW-paHjHev_F08e_BA",
  "patch_base": "2.3.1",
  "needs": []
 }
