@@ -1,9 +1,9 @@
 {
- "version": "2.7.11",
- "notes": "- Old palace dramas: 孙公公 is said ខុនទីស៊ុន (not \"គុងគុងស៊ុន\"), 太监 ខុនទី, and 锦衣卫 / 东厂 by meaning (កងរក្សាព្រះអង្គ), not as a name.\n- A short piece that only says the end of the line before again (\"不好好\" after \"…对谁都不好\") is no longer voiced twice.\n- Names: a line that says a listed name another way (\"子航\" as \"ជឺហាង\", the list says \"ហ្ស៊ីហាំង\") is pointed out to the proofreader, who puts the list's name in.",
- "patch_url": "VoxDub_update_2.7.11.zip",
- "patch_sha256": "f33a6cb18f729b30c0ee0ebaf5e208bc62cd591d85d28b4a600103b3503ec208",
- "patch_sig": "OoHyGGaY0EI2vIgk9MTlOgQAZMW05zBEpI9VjQpBPBCduqV7jXzxptAyJ4a308O-G1_KLW-paHjHev_F08e_BA",
+ "version": "2.7.13",
+ "notes": "- Characters: one slow Gemini model no longer uses the whole wait (\"AI 68s … not used – Read timed out\") – after about a minute the next model is asked, and a model that was too slow is asked last for 30 minutes.\n- The trace (logs) says which model answered or was too slow, and why Characters was not used.",
+ "patch_url": "VoxDub_update_2.7.13.zip",
+ "patch_sha256": "bf39b10252d9cedb80c4f00161e2e9237ee2c1809fb7194886c8c506d16e2efd",
+ "patch_sig": "96KhhhaGF2oCuy-iTVBgMRvVtK0yJXBKn_gjCYq_bdsiIqok3-n5Z1V0whRIKpmbYyHxZxrNuvOv98TBV-lWAQ",
  "patch_base": "2.3.1",
  "needs": []
 }
