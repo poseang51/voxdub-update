@@ -1,9 +1,9 @@
 {
- "version": "2.7.13",
- "notes": "- Characters: one slow Gemini model no longer uses the whole wait (\"AI 68s … not used – Read timed out\") – after about a minute the next model is asked, and a model that was too slow is asked last for 30 minutes.\n- The trace (logs) says which model answered or was too slow, and why Characters was not used.",
- "patch_url": "VoxDub_update_2.7.13.zip",
- "patch_sha256": "bf39b10252d9cedb80c4f00161e2e9237ee2c1809fb7194886c8c506d16e2efd",
- "patch_sig": "96KhhhaGF2oCuy-iTVBgMRvVtK0yJXBKn_gjCYq_bdsiIqok3-n5Z1V0whRIKpmbYyHxZxrNuvOv98TBV-lWAQ",
+ "version": "2.7.15",
+ "notes": "- Characters: an AI answer that places at least 80 % of the lines is used – a line it left out goes with its voice print's person (EP001: an answer in 58 s was thrown away for a few lines, then 3 minutes of asking again gave nothing).\n- The Edge numbers in the trace are kept for each video on its own (with 2 at once, one video got both videos' refusals).",
+ "patch_url": "VoxDub_update_2.7.15.zip",
+ "patch_sha256": "4b1f7bbffcd2b20eeda2b7b51e5c737a297eb7e9c9537b7bf423bf2d25e32b0d",
+ "patch_sig": "biwP3O6sBNX6yDadKRVD4VHg4UPkw3JtVIpgo5Kjh_BFF4yAEAdQGFawmsOJOrClOKVtrFXb-mLTDW0W-0OVDA",
  "patch_base": "2.3.1",
  "needs": []
 }
